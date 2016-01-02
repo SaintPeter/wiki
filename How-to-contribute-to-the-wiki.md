@@ -6,8 +6,16 @@ How To Contribute To The Wiki
 *As such there might be 2 sets of directions. Pick what you need*
 
 ##Table of Contents
-- [Initial: One Time Setups](#Initial-One-Time-Setups)
-	- [Cloning](#Cloning)
+- [Initial: One Time Setups](#initial-one-time-setups)
+	- [Cloning](#cloning)
+- [Part 1: Choose what to work on](#part-1-choose-what-to-work-on)
+- [Part 2: Rebasing your Master (or current branch)](#part-2-rebasing-your-master-or-current-branch)
+	- [Doing a rebase](#doing-a-rebase)
+- [Part 3: Making a new branch](#part-3-making-a-new-branch)
+- [Part 4: Getting ready to edit](#part-4-getting-ready-to-edit)
+- [Part 5: Commit to your branch](#part-5-commit-to-your-branch
+- [Part 6: Pull Request to FCC Wiki Repo](#part-6-pull-request-to-fcc-wiki-repo)
+- [Markdown Editing/Viewing Tools](#markdown-editing-viewing-tools)
 
 ## Initial: One Time Setups
  - Have a GitHub Account
@@ -176,4 +184,6 @@ Simply edit the file on your machine, or make a new one.
 
 ----------
 
-## Part 4: Promoting
+## Part 6: Pull Request to FCC Wiki Repo
+
+## Markdown Editing/Viewing Tools
