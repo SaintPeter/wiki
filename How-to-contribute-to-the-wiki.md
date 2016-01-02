@@ -37,7 +37,7 @@ How To Contribute To The Wiki
 	 
 ### Cloning 
  *The following image is a reference to both sets of directions* 
- ![Grabbing the Git URL](.\images\How-To-Contribute-To-The-Wiki\Grabbing-The-Git-URL.PNG)
+ ![Grabbing the Git URL](./images/How-To-Contribute-To-The-Wiki/Grabbing-The-Git-URL.PNG)
  
 #### Github Desktop Directions
  On ***your*** forked repository page, click the button that looks like a screen with an arrow. This will open GitHub Desktop to clone it automatically.
