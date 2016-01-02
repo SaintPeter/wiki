@@ -5,6 +5,10 @@ How To Contribute To The Wiki
 
 *As such there might be 2 sets of directions. Pick what you need*
 
+##Table of Contents
+- [Initial: One Time Setups](#Initial-One-Time-Setups)
+	- [Cloning](#Cloning)
+
 ## Initial: One Time Setups
  - Have a GitHub Account
  - Get Git on your computer
@@ -15,17 +19,19 @@ How To Contribute To The Wiki
 	- The above link is where you need to go
  - Click on **Fork** if you don't already have a Fork
 	 - This will recreate the Wiki Repo under your username
+	 - This will also automatically create the same branches that the FCC wiki Repo has. Thus you will now have a master **branch** as well.
 
 |Vocabulary|Meaning|
 |----------|-------|
 |Repository| A data structure to manage a project or set of files and the changes it receives.|
 |Repo| A shorter way to say Repository |
+|Branch| A pointer to a version of a repo as of when the branch was last created/updated from that repo|
 	 
- ### Cloning 
+### Cloning 
  *The following image is a reference to both sets of directions* 
  ![Grabbing the Git URL](images\How-To-Contribute-To-The-Wiki\Grabbing-The-Git-URL.PNG)
  
- #### Github Desktop Directions
+#### Github Desktop Directions
  On ***your*** forked repository page, click the button that looks like a screen with an arrow. This will open GitHub Desktop to clone it automatically.
  
  If it doesn't do it automatically, you can:
@@ -38,7 +44,7 @@ How To Contribute To The Wiki
  ![GitHub Desktop Cloning](images\How-To-Contribute-To-The-Wiki\GitHub-Desktop-Cloning.PNG)
  
  
- #### Command Line Directions
+#### Command Line Directions
 `git clone <GIT Repository URL>`
 
 example: `git clone https://github.com/CaroleAnneHannon/wiki.git`
@@ -54,13 +60,23 @@ You can grab the repository URL on your fork. The image above shows a button tha
 ----------
 
 ----------
+## Part 1: Choose what to work on ##
+Feel free to look at the [issues](https://github.com/FreeCodeCamp/wiki/issues) on the Wiki's repo.
 
+Additionally you can contact [@Rafase282](https://gitter.im/Rafase282) or ask in the [Wiki Chat](https://gitter.im/FreeCodeCamp/Wiki)
 
-## Part 1: Rebasing
-The original repo will be changed over time; it's really important to **rebase** in order to keep your branch up to date
+Lastly you could just make a change you feel is needed without coordinating with anyone - typo fixes for example.
 
+## Part 2: Rebasing your Master (or current branch)
+***Note*** : If you just made your brand new fork, you can skip this step.
 
-![Branch needing a rebase](http://i.imgur.com/9XE0a61.png)
+However! 
+
+That doesn't mean this isn't an important step. You should keep your master branch updated with the Wiki Repo's master branch so that if you make a new branch from it, you don't have to worry about merge issues.
+
+You can see how your branch compares on GitHub:
+
+![Branch needing a rebase](images\How-To-Contribute-To-The-Wiki\Need-To-Rebase.PNG)
 
 
 ### Doing a rebase
@@ -78,15 +94,21 @@ This command doesn't actually do anything other than show you what the connectio
 
 `git branch <BRANCHNAME>`
 
-example: git branch channon
+example: `git branch wikiguide`
 
 ***Select your branch***
 
 `git checkout <BRANCHNAME>`
 
-example: git checkout channon
+example: `git checkout wikiguide`
 
-*channon is the branch this tutorial is using*
+***Making and selecting a branch in one step***
+
+`git checkout -b <BRANCHNAME>`
+
+example: `git checkout -b wikiguide`
+
+*wikiguide is the branch this tutorial is using*
 
 ***Rebase***
 `git rebase <REMOTENAME>/<REMOTEBRANCH>`
@@ -96,11 +118,11 @@ becomes:
 ***Push from the branch in github to your local machine***
 `git push <REMOTENAME> <REMOTEBRANCH>`
 becomes:
-`git push origin channon`
+`git push origin wikiguide`
 
 Now the branch should be up to date
 
-![Branch that doesn't need to rebase](http://i.imgur.com/QLhmRDv.png)
+![Branch that doesn't need to rebase](images\How-To-Contribute-To-The-Wiki\No-Need-To-Rebase.PNG)
 
 
 #### GitHub Desktop
@@ -114,12 +136,17 @@ The Sync feature does not work well. Right click on the repo, open in Git Shell,
 |Push|writes the rebase to a branch|
 |Commit|changes made to a repository|
 
+## Part 3: Making a new branch
+If you haven't already, you should make a new branch.
+
+Branches should be named after what the change you are performing.
 
 ----------
 
 ----------
 
-## Part 2: Getting Ready to Edit
+## Part 4: Getting ready to edit
+
 Get to your directory on your local machine
 
 *Github Desktop note*
@@ -139,8 +166,14 @@ All of the files for the wiki are .md files. These are **markdown** files. They 
 
 Simply edit the file on your machine, or make a new one.
 
-----------
+
+## Part 5: Commit to your branch
+### GitHub Desktop Directions
+
+
 
 ----------
 
-## Part 3: Promoting
+----------
+
+## Part 4: Promoting
