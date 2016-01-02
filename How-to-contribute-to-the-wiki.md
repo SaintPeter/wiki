@@ -37,7 +37,7 @@ How To Contribute To The Wiki
 	 
 ### Cloning 
  *The following image is a reference to both sets of directions* 
- ![Grabbing the Git URL](images\How-To-Contribute-To-The-Wiki\Grabbing-The-Git-URL.PNG)
+ ![Grabbing the Git URL](.\images\How-To-Contribute-To-The-Wiki\Grabbing-The-Git-URL.PNG)
  
 #### Github Desktop Directions
  On ***your*** forked repository page, click the button that looks like a screen with an arrow. This will open GitHub Desktop to clone it automatically.
@@ -49,7 +49,7 @@ How To Contribute To The Wiki
  + Pick the fork your wish to clone
  + Click on "Clone wiki"
  + Select where to clone it into
- ![GitHub Desktop Cloning](images\How-To-Contribute-To-The-Wiki\GitHub-Desktop-Cloning.PNG)
+ ![GitHub Desktop Cloning](.\images\How-To-Contribute-To-The-Wiki\GitHub-Desktop-Cloning.PNG)
  
  
 #### Command Line Directions
@@ -84,7 +84,7 @@ That doesn't mean this isn't an important step. You should keep your master bran
 
 You can see how your branch compares on GitHub:
 
-![Branch needing a rebase](images\How-To-Contribute-To-The-Wiki\Need-To-Rebase.PNG)
+![Branch needing a rebase](.\images\How-To-Contribute-To-The-Wiki\Need-To-Rebase.PNG)
 
 
 ### Doing a rebase
@@ -130,7 +130,7 @@ becomes:
 
 Now the branch should be up to date
 
-![Branch that doesn't need to rebase](images\How-To-Contribute-To-The-Wiki\No-Need-To-Rebase.PNG)
+![Branch that doesn't need to rebase](.\images\How-To-Contribute-To-The-Wiki\No-Need-To-Rebase.PNG)
 
 
 #### GitHub Desktop
